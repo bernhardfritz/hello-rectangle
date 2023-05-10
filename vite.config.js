@@ -3,6 +3,7 @@ import { createHtmlPlugin } from 'vite-plugin-html';
 import topLevelAwait from 'vite-plugin-top-level-await';
 
 export default defineConfig(({ command }) => ({
+  base: './',
   plugins: [
     topLevelAwait(),
     ...[
